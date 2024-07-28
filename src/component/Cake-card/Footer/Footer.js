@@ -7,9 +7,9 @@ function Footer() {
   return (
     <footer className="footer" style={footerBgColor}>
       <nav className="row">
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
+        <a href="/" className="link link-hover">About us</a>
+        <a href="/" className="link link-hover">Contact</a>
+        <a href="/" className="link link-hover">Jobs</a>
       </nav>
       <div className="contact">
         {config.staffContacts.map((contact, i) => (

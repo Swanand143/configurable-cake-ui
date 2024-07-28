@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav style={Navbarbg} className="navbar">
       <ul >
-        <li><a style={{color : config.themeColors.NavbarTextColor}} href="#">Home</a></li>
-        <li><a style={{color : config.themeColors.NavbarTextColor}} href="#">About</a></li>
-        <li><a style={{color : config.themeColors.NavbarTextColor}} href="#">Contact</a></li>
+        <li><a  style={{color : config.themeColors.NavbarTextColor}} href="/">Home</a></li>
+        <li><a  style={{color : config.themeColors.NavbarTextColor}} href="/">About</a></li>
+        <li><a  style={{color : config.themeColors.NavbarTextColor}} href="/">Contact</a></li>
       </ul>
     </nav>
   );
