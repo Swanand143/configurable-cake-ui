@@ -2,18 +2,21 @@ import React from "react";
 import "./Home.css";
 import config from "./../../config.json";
 import Card from "../../component/Cake-card/Card";
+import Footer from "../../component/Cake-card/Footer/Footer";
 
 function Home() {
   return (
-    <div style={{backgroundColor : config.themeColors.bodybg}} className="container p-4 ">
+    <>
+    <div
+      style={{ backgroundColor: config.themeColors.bodybg }}
+      className="container"
+    >
       <h1
-        className="text-center"
+        className="heading"
         style={{ color: config.themeColors.headingColor }}
       >
         {config.product}
       </h1>
-      {/* <p className="text-center"> {config.} </p> */}
-      <h3 className="text-center"> services </h3>
       <div className="card-container">
         {config.cakes.map((serviceData, index) => {
           const {
@@ -38,6 +41,8 @@ function Home() {
         })}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 {
-  "product": "Cakes",
+  "product": "Agasti Cake Shop",
   "cakes": [
     {
       "id": 1,
@@ -103,8 +103,8 @@
       "bodybg": "#FFD2D2",
       "bodytext": "#000000",
       "headingColor": "#2E2832",
-      "footerBgcolor": "#6A5A4E",
-      "footerTextColor": "#fff",
+      "footerBgcolor": "#a19797",
+      "footerTextColor": "#6A5A4E",
       "footerHeadingColor": "#fff",
       "cakeCardbg": "#FFE0DD"
     }
