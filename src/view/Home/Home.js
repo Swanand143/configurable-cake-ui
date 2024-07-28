@@ -3,10 +3,12 @@ import "./Home.css";
 import config from "./../../config.json";
 import Card from "../../component/Cake-card/Card";
 import Footer from "../../component/Cake-card/Footer/Footer";
+import Navbar from "../../component/Navbar/Navbar";
 
 function Home() {
   return (
     <>
+    <Navbar/>
     <div
       style={{ backgroundColor: config.themeColors.bodybg }}
       className="container"
