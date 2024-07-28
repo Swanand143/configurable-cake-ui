@@ -11,6 +11,13 @@ function Footer() {
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>
       </nav>
+      <div className="contact">
+        {config.staffContacts.map((contact, i) => (
+          <p key={i}>
+            {contact.name}: {contact.email}
+          </p>
+        ))}
+      </div>
       <nav>
         <div className="row">
           <a>
@@ -50,8 +57,8 @@ function Footer() {
       </nav>
       <aside>
         <p className="copyright">
-          Copyright © {new Date().getFullYear()} - All right reserved by ACME
-          Industries Ltd
+          Copyright © {new Date().getFullYear()} - All right reserved by Agasti
+          Cake Shop Ltd
         </p>
       </aside>
     </footer>
