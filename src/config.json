@@ -94,7 +94,7 @@
       "headingColor": "#2E2832",
       "footerBgcolor": "#a19797",
       "footerTextColor": "#6A5A4E",
-      "footerHeadingColor": "#fff",
+      "footerHeadingColor": "#000",
       "cakeCardbg": "#FFE0DD",
       "Navbarbg" : "#a19797",
       "NavbarTextColor" : "#000"
